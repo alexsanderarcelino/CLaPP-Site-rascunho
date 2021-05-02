@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
 body {
     background: #ffffff;
     font-family: 'Poppins', sans-serif;
@@ -111,9 +110,6 @@ body {
     overflow: hidden;
     margin-top: 140px;
 }
-
-
-/**/
 
 .banner-content-img {
     position: absolute;
@@ -312,6 +308,25 @@ body {
 }
 
 
+/* Index Transporte */
+
+.index-transporte .beneficios-text {
+    width: 50%;
+    float: left;
+}
+
+.index-transporte .beneficios-figure {
+    width: 30%;
+    float: left;
+    margin-right: 90px;
+}
+
+.index-transporte .beneficios-figure img {
+    width: 100%;
+    float: left;
+}
+
+
 /* BENEFICIOS */
 
 .beneficios-index {
@@ -346,64 +361,6 @@ body {
 .beneficios-index ul li p {
     line-height: 20px;
     padding-top: 9px;
-}
-
-
-/* Index Transporte */
-
-.index-transporte .beneficios-text {
-    width: 50%;
-    float: left;
-}
-
-.index-transporte .beneficios-figure {
-    width: 30%;
-    float: left;
-    margin-right: 90px;
-}
-
-.index-transporte .beneficios-figure img {
-    width: 100%;
-    float: left;
-}
-
-
-/* Index Alimentação */
-
-.index-alimentacao .beneficios-figure {
-    width: 30%;
-    float: right;
-    margin-right: 18%;
-    margin-top: 7%;
-}
-
-.index-alimentacao .beneficios-figure img {
-    width: 100%;
-    float: left;
-}
-
-.index-alimentacao .beneficios-text {
-    width: 50%;
-    float: left;
-}
-
-
-/* Index Reconhecimento */
-
-.index-reconhecimento .beneficios-text {
-    width: 50%;
-    float: left;
-}
-
-.index-reconhecimento .beneficios-figure {
-    width: 30%;
-    float: left;
-    margin-right: 90px;
-}
-
-.index-reconhecimento .beneficios-figure img {
-    width: 100%;
-    float: left;
 }
 
 
@@ -816,24 +773,18 @@ body {
         width: 100%;
     }
     .index-transporte .beneficios-figure,
-    .index-alimentacao .beneficios-figure,
-    .index-reconhecimento .beneficios-figure,
     .index-biblioteca .beneficios-figure {
         width: 100%;
         margin-right: 0;
         text-align: center;
     }
     .index-transporte .beneficios-figure img,
-    .index-alimentacao .beneficios-figure img,
-    .index-reconhecimento .beneficios-figure img,
     .index-biblioteca .beneficios-figure img {
         width: 60%;
         margin: 0 auto;
         float: none;
     }
     .index-transporte .beneficios-text,
-    .index-alimentacao .beneficios-text,
-    .index-reconhecimento .beneficios-text,
     .index-biblioteca .beneficios-text {
         width: 100%;
         margin-top: 40px;
